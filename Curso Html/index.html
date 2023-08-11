@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Primera pagina Web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mi primera pagina Web</h1>
+    <hr>
+    <br>
+    <a href="blog.html">ir a mi blog</a>
+    <br>
+    <p>prueba de etiquetas</p>
+    <a target="_blank" href="https://www.google.com">ir a google</a>
+    <br>
+    <br>
+    <table style="width: 300px;">
+        <thead>
+            <th>Precio</th>
+            <th>Producto</th>
+        </thead>
+            <tbody>
+                 
+            <tr>
+                <td>hola beats</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Chanchito Feliz</td>
+                <td>100$</td>
+            </tr>
+            <tr>
+                <td>Chanchito  muy Feliz</td>
+                <td>200$</td>
+            </tr>
+            </tbody>
+           <tfoot>
+            <td></td>
+            <td>total: 300$</td>
+            
+           </tfoot>
+        
+    </table>
+
+    <!--ul es lista no ordenada-->
+    <ul>
+        <li>Elemento 1 </li>
+        <li>Elemento 2 </li>
+        <li>Elemento 3 </li>
+        <li>Elemento 4 </li>
+        <li>
+            <ol>
+                <li style="list-style-type:lower-alpha ;">Sube elemento 1</li>
+                <li style="list-style-type:lower-alpha ;">Sube elemento 2</li>
+                <li style="list-style-type:lower-alpha ;">Sube elemento 3</li>
+            </ol>
+        </li>
+    </ul>
+    <!--lista ordenada-->
+    <ol>
+        <li>Elemento 1 </li>
+        <li>Elemento 2 </li>
+        <li>Elemento 3 </li>
+        <li>Elemento 4 </li>
+    </ol>
+    <br>
+    <div>
+        <h2>Prueba de form</h2>
+        <form action="/formulario" method="GET">
+            <!--Ejemplo de Formularios-->
+            <h1>Formulario</h1>
+            <label for="nombre">nombre</label>
+            <input id="nombre" type="text" placeholder="nombre completo">
+            <br>
+            <label for="apellido">apellido</label>
+            <input id="apellido" type="text" placeholder="apellidos">
+            <br>
+            <label for="email">email</label>
+            <input id="email" type="email" placeholder="email">
+            <br>
+            <textarea cols="50" rows="10" name="comentario" id="comentario"></textarea>
+            <br>
+            <button type="button">tipo button</button>
+            <button type="reset">tipo reset</button>
+            <button type="submit">tipo submit</button>
+        </form>
+    </div>
+    <!--Tamaños de letras-->
+    <h1>Primer heading</h1>
+    <h2>Segundo heading</h2>
+    <h3>Tercer heading</h3>
+    <h4>Cuarto heading</h4>
+    <h5>Quinto Heading</h5>
+    <h6>Sexto Heading</h6>
+
+</body>
+</html>
